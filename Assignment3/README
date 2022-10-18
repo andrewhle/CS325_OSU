@@ -1,0 +1,37 @@
+Question 1
+DNA sequence is made of characters A, C, G and T, which represent nucleotides. A sample
+DNA string can be given as ‘ACCGTTTAAAG’. Finding similarities between two DNA
+sequences is a critical computation problem that is solved in bioinformatics.
+Given two DNA strings find the length of the longest common string alignment between
+them (it need not be continuous). Assume empty string does not match with anything.
+Example: DNA string1: ATAGTTCCGTCAAA ; DNA string2: GTGTTCCCGTCAAA
+
+Length of the best continuous length of the DNA string alignment: 12 (TGTTCCGTCAAA)
+a. Implement a solution to this problem using Top-down Approach of Dynamic
+Programming, name your function dna_match_topdown(DNA1, DNA2)
+b. Implement a solution to this problem using Bottom-up Approach of Dynamic
+Programming, name your function dna_match_bottomup(DNA1, DNA2)
+Write implementation of a & b in a single python file, name your file DNAMatch.py
+Do not write the functions in a Python class.  
+c. Explain how your top-down approach different from the bottom-up approach?
+d. What is the time complexity and Space complexity using Top-down Approach
+e. What is the time complexity and Space complexity using Bottom-up Approach
+f. Write the subproblem and recurrence formula for your approach. If the top down and
+bottom-up approaches have the subproblem recurrence formula you may write it only
+once, if not write for each one separately.
+
+Question 2
+You are playing a puzzle. A random number N is given, you have blocks of length 1 unit and 2
+units. You need to arrange the blocks back to back such that you get a total length of N units. In
+how many distinct ways can you arrange the blocks for given N.
+a. Write a description/pseudocode of approach to solve it using Dynamic Programming
+paradigm (either top-down or bottom-up approach)
+b. Write pseudocode/description for the brute force approach
+c. Compare the time complexity of both the approaches
+d. Write the recurrence formula for the problem
+Example 1:
+Input: N=2, Result: 2
+Explanation: There are two ways. (1+1 , 2)
+Example 2:
+Input: N=3, Result: 3
+Explanation: There are three ways (1+1+1, 1+2, 2+1)
